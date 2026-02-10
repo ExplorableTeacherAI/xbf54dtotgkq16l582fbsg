@@ -133,9 +133,9 @@ const exampleSections: ReactElement[] = [
                 If we increase the temperature to{" "}
                 <InlineScrubbleNumber
                     varName="temperature"
-                    defaultValue={25}
+                    defaultValue={10}
                     min={0}
-                    max={100}
+                    max={12}
                     step={1}
                     formatValue={(v) => `${v}°C`}
                 />
