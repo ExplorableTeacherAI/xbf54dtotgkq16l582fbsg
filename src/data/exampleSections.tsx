@@ -118,9 +118,9 @@ const exampleSections: ReactElement[] = [
                 The circle has a radius of{" "}
                 <InlineScrubbleNumber
                     varName="radius"
-                    defaultValue={5}
+                    defaultValue={1}
                     min={1}
-                    max={20}
+                    max={10}
                     step={0.5}
                 />
                 {" "}units, giving it an area proportional to r².
@@ -198,14 +198,6 @@ const exampleSections: ReactElement[] = [
         </Block>
     </FullWidthLayout>,
 
-    <FullWidthLayout key="layout-heading-h3-02" maxWidth="xl">
-        <Block id="block-heading-h3-02" padding="sm">
-            <EditableH3 id="h3-parameters-title" sectionId="block-heading-h3-02">
-                Key Parameters
-            </EditableH3>
-        </Block>
-    </FullWidthLayout>,
-
     <FullWidthLayout key="layout-paragraph-08" maxWidth="xl">
         <Block id="block-paragraph-08" padding="sm">
             <EditableParagraph id="para-gravity-example" sectionId="block-paragraph-08">
@@ -220,6 +212,14 @@ const exampleSections: ReactElement[] = [
                 />
                 . You can adjust these values to see how they affect the trajectory.
             </EditableParagraph>
+        </Block>
+    </FullWidthLayout>,
+
+    <FullWidthLayout key="layout-heading-h3-02" maxWidth="xl">
+        <Block id="block-heading-h3-02" padding="sm">
+            <EditableH3 id="h3-parameters-title" sectionId="block-heading-h3-02">
+                Key Parameters
+            </EditableH3>
         </Block>
     </FullWidthLayout>,
 ];
