@@ -102,17 +102,6 @@ const exampleSections: ReactElement[] = [
         </Block>
     </FullWidthLayout>,
 
-    // ========================================
-    // MIXED CONTENT DEMO (Physics Example)
-    // ========================================
-    <FullWidthLayout key="layout-heading-h2-04" maxWidth="xl">
-        <Block id="block-heading-h2-04" padding="sm">
-            <EditableH2 id="h2-physics-title" sectionId="block-heading-h2-04">
-                Physics Example: Projectile Motion
-            </EditableH2>
-        </Block>
-    </FullWidthLayout>,
-
     <FullWidthLayout key="layout-paragraph-03" maxWidth="xl">
         <Block id="block-paragraph-03" padding="sm">
             <EditableParagraph id="para-inline-intro" sectionId="block-paragraph-03">
@@ -168,6 +157,17 @@ const exampleSections: ReactElement[] = [
                 />
                 {" "}items in the collection. Try dragging the number to adjust.
             </EditableParagraph>
+        </Block>
+    </FullWidthLayout>,
+
+    // ========================================
+    // MIXED CONTENT DEMO (Physics Example)
+    // ========================================
+    <FullWidthLayout key="layout-heading-h2-04" maxWidth="xl">
+        <Block id="block-heading-h2-04" padding="sm">
+            <EditableH2 id="h2-physics-title" sectionId="block-heading-h2-04">
+                Physics Example: Projectile Motion
+            </EditableH2>
         </Block>
     </FullWidthLayout>,
 
