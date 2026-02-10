@@ -102,6 +102,17 @@ const exampleSections: ReactElement[] = [
         </Block>
     </FullWidthLayout>,
 
+    // ========================================
+    // MIXED CONTENT DEMO (Physics Example)
+    // ========================================
+    <FullWidthLayout key="layout-heading-h2-04" maxWidth="xl">
+        <Block id="block-heading-h2-04" padding="sm">
+            <EditableH2 id="h2-physics-title" sectionId="block-heading-h2-04">
+                Physics Example: Projectile Motion
+            </EditableH2>
+        </Block>
+    </FullWidthLayout>,
+
     <FullWidthLayout key="layout-paragraph-03" maxWidth="xl">
         <Block id="block-paragraph-03" padding="sm">
             <EditableParagraph id="para-inline-intro" sectionId="block-paragraph-03">
@@ -111,7 +122,6 @@ const exampleSections: ReactElement[] = [
         </Block>
     </FullWidthLayout>,
 
-    // Inline scrubble number examples
     <FullWidthLayout key="layout-paragraph-04" maxWidth="xl">
         <Block id="block-paragraph-04" padding="sm">
             <EditableParagraph id="para-radius-example" sectionId="block-paragraph-04">
@@ -161,17 +171,6 @@ const exampleSections: ReactElement[] = [
         </Block>
     </FullWidthLayout>,
 
-    // ========================================
-    // MIXED CONTENT DEMO (Physics Example)
-    // ========================================
-    <FullWidthLayout key="layout-heading-h2-04" maxWidth="xl">
-        <Block id="block-heading-h2-04" padding="sm">
-            <EditableH2 id="h2-physics-title" sectionId="block-heading-h2-04">
-                Physics Example: Projectile Motion
-            </EditableH2>
-        </Block>
-    </FullWidthLayout>,
-
     <FullWidthLayout key="layout-paragraph-07" maxWidth="xl">
         <Block id="block-paragraph-07" padding="sm">
             <EditableParagraph id="para-projectile-intro" sectionId="block-paragraph-07">
@@ -212,14 +211,6 @@ const exampleSections: ReactElement[] = [
                 />
                 . You can adjust these values to see how they affect the trajectory.
             </EditableParagraph>
-        </Block>
-    </FullWidthLayout>,
-
-    <FullWidthLayout key="layout-heading-h3-02" maxWidth="xl">
-        <Block id="block-heading-h3-02" padding="sm">
-            <EditableH3 id="h3-parameters-title" sectionId="block-heading-h3-02">
-                Key Parameters
-            </EditableH3>
         </Block>
     </FullWidthLayout>,
 ];
