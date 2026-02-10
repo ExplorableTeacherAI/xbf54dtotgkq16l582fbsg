@@ -117,7 +117,7 @@ const exampleSections: ReactElement[] = [
                 The circle has a radius of{" "}
                 <InlineScrubbleNumber
                     varName="radius"
-                    defaultValue={1}
+                    defaultValue={2}
                     min={1}
                     max={10}
                     step={0.5}
