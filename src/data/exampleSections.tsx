@@ -97,7 +97,7 @@ const exampleSections: ReactElement[] = [
     <FullWidthLayout key="layout-heading-h2-03" maxWidth="xl">
         <Block id="block-heading-h2-03" padding="sm">
             <EditableH2 id="h2-inline-title" sectionId="block-heading-h2-03">
-                Inline Components
+                Inline Components Test
             </EditableH2>
         </Block>
     </FullWidthLayout>,
